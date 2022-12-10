@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- elseのを使用するときの注意点　ifの時しか使えない　独立しての使用はできない　　ifとelseの間に別の処理を書くとエラーになる -->
+    <!-- コンソールに表示しながら確認する。　SyntaxError構文ミスがないかを気を付けて書き、コンソールに出てきたらコードを見直す -->
+    <script>
+        
+        if(100 < 10) {
+            console.log("正解");
+        }else {
+            console.log("違います");
+        }
+
+        var text = "同じ？";
+        if(text == "違う") {
+            console.log("同じ！")
+        }else {
+            console.log("ちがうだろー！！");
+        }
+    </script>
+</body>
+</html>
